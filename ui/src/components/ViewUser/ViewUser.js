@@ -17,7 +17,6 @@ return (
 <div className="people-you-might-know">
 
 <div className="row add-people-section">
-{/* <div className="small-12 medium-10 columns about-people"> */}
 
 <div className="about-people-author">
 <p className="author-name">
@@ -27,7 +26,6 @@ return (
 </div>
 </div>
 </div>
-{/* </div> */}
 </div>
 )
 }, this);
@@ -35,6 +33,7 @@ return (
 return (
 <div>
 <b className="welcomequote">Welcome {this.props.name} !</b>
+<h5 className="detailtittle">All User Details</h5>
 {userDetail}
 
 </div>
